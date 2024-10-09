@@ -1,0 +1,13 @@
+server:
+  port: 8889
+
+# Development profile configuration
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+
+Mail:
+  UserName: ${DGSECURITY_NOTIF_EMAIL}
+  UserPassword: ${DGSECURITY_NOTIF_PASSWORD}

@@ -1,0 +1,10 @@
+
+# Release profile configuration
+spring:
+  config:
+    activate:
+      on-profile: release
+
+Mail:
+  UserName: ${EMAIL_USERNAME}
+  UserPassword: ${EMAIL_PASSWORD}

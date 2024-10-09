@@ -1,0 +1,11 @@
+
+# Release profile configuration
+spring:
+  config:
+    activate:
+      on-profile: aws
+
+
+Mail:
+  UserName: ${DGSECURITY_NOTIF_EMAIL}
+  UserPassword: ${DGSECURITY_NOTIF_PASSWORD}
